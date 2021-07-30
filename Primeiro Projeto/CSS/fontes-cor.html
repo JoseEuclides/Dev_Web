@@ -5,6 +5,10 @@
 		<title>Fontes e Cores</title>
 
 		<style type="text/css">
+		/* px= pixels
+		   % = tamanho relativo
+		   em = tamanho relativo ao conteiner pai
+		*/
 
 			.formatacão{
 				color: #C1400d;
@@ -12,17 +16,30 @@
 				font-family: "Times New Roman",Times, serif;
 			}
 
+			.texto{
+				/*font-size: 20px;*/
+				font-size: 2em;
+			}
+
+			.texto2{
+				font-size: 15px;
+			}
+
+			div{
+				font-size: 60px;
+			}
+
 		</style>
 
 	</head>
 	<body>
 		
-		<h1 class="formatacão">Cabeçalho1</h1>
+		<div>
+			<p class="texto">Conteúdo1</p>
+			<p class="texto2">Conteúdo2</p>
+		</div>
+				
 		
-		<p class="formatacão">
-			Conteudo
-		</p>
-
 
 
 	</body>
